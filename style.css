@@ -24,7 +24,7 @@
 body {
     display: flex;
     justify-content: center;
-    width: 100%;
+
     height: auto;
     transform: scale(0.8);
     background-color: var(--very-pale-blue);
@@ -50,6 +50,7 @@ h1 {
 
 p {
     color: var(--grayish-blue);
+    font-size: 13px;
 }
 
 .header p, .header h1 {
@@ -80,6 +81,7 @@ p {
 
 .form-container .views {
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .form-container .cost {
@@ -146,8 +148,8 @@ p {
 .switch {
     position: relative;
     display: inline-block;
-    width: 54px;
-    height: 25px;
+    width: 46px;
+    height: 24px;
 }
 
 .switch input {
@@ -186,7 +188,7 @@ p {
 }
 
 .switch input:checked + .slider:before {
-    transform: translateX(29px);
+    transform: translateX(20px);
 }
 
 .discount span {
@@ -212,6 +214,7 @@ p {
 }
 
 .info-container  ul li {
+    font-size: 13px;
     list-style: none;
     text-align: center;
     margin-top: 0.3rem;
@@ -234,7 +237,9 @@ p {
     color: var(--pale-blue);
 }
 
-@media(min-width: 750px) {}
+@media(min-width: 750px) {
+    
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
